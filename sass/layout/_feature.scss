@@ -1,0 +1,68 @@
+.feature {
+  padding-top: 74px;
+}
+.feature__link {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.feature__container {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.feature__icon {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-antena {
+  background-image: url('../images/antenna\ 1.svg');
+}
+.icon-clock {
+  background-image: url('../images/clock\ 1.svg');
+}
+.icon-diagram {
+  background-image: url('../images/diagram\ 1.svg');
+}
+.icon-astronavt {
+  background-image: url('../images/astronaut\ 1.svg');
+}
+.feature__subtitle {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--primary-title-color);
+}
+.feature__list {
+  display: flex;
+}
+.feature__item {
+  margin-right: 30px;
+  &:last-child {
+    margin-right: 30px;
+  }
+}
+
+.feature__subtitle {
+  margin-bottom: 10px;
+}
+.feature__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}

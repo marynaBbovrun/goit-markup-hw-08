@@ -1,0 +1,118 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+.header__conteiner {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.logo__lft {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--first-logo-color);
+}
+.logo__right {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-logo-color);
+}
+
+.logo-right-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-white-color);
+}
+.site-nav {
+  display: flex;
+}
+.site-nav__item {
+  margin-right: 50px;
+  padding-top: 33px;
+  padding-bottom: 31px;
+  position: relative;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.site-nav__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus,
+  &:hover {
+    color: var(--accent-color);
+  }
+  &.current::after {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header__connect {
+  margin-left: auto;
+  padding-top: 33px;
+  padding-bottom: 31px;
+}
+.header__contact {
+  margin-right: 50px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.header__mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  &:focus,
+  &:hover {
+    color: var(--accent-color);
+  }
+}
+.header__tell {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  &:focus,
+  &:hover {
+    color: var(--accent-color);
+  }
+}
+.header__social-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
