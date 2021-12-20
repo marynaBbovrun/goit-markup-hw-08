@@ -438,6 +438,12 @@ body {
   color: var(--secondary-text-color);
 }
 
+@media screen and (max-width: 1199px) {
+  .classes {
+    display: none;
+  }
+}
+
 .classes__section {
   padding-left: 15px;
   padding-right: 15px;
@@ -832,13 +838,35 @@ img {
 }
 
 .work {
-  padding-top: 94px;
+  padding-top: 60px;
+}
+@media screen and (min-width: 768px) {
+  .work {
+    padding-top: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .work {
+    padding-top: 94px;
+  }
 }
 
 .work-list {
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .work-list {
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .work-list {
+    justify-content: center;
+    margin-bottom: 50px;
+  }
 }
 
 .work-btn {
@@ -865,6 +893,7 @@ img {
 
 .button-work {
   margin-right: 8px;
+  margin-bottom: 15px;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -877,16 +906,25 @@ img {
 }
 
 .example-list {
-  display: flex;
-  flex-wrap: wrap;
   margin-bottom: -30px;
-  margin-right: -30px;
+}
+@media screen and (min-width: 768px) {
+  .example-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .example-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+  }
 }
 
 .example-item {
-  flex-basis: calc(100% / 3 - 30px);
   margin-bottom: 30px;
-  margin-right: 30px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -895,6 +933,18 @@ img {
 }
 .example-item:hover .example-top-text {
   transform: translateY(0);
+}
+@media screen and (min-width: 768px) {
+  .example-item {
+    flex-basis: calc(100% / 2 - 30px);
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .example-item {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-right: 30px;
+  }
 }
 
 .example-item-wrap {
