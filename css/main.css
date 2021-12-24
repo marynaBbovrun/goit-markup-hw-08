@@ -1471,7 +1471,7 @@ img {
 }
 @media screen and (max-width: 1199px) {
   .checkbox__text {
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.7;
@@ -1511,7 +1511,7 @@ img {
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
+    color: var(--accent-color);
   }
 }
 @media screen and (min-width: 1200px) {
