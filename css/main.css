@@ -1003,6 +1003,11 @@ img {
     justify-content: center;
   }
 }
+@media screen and (max-width: 767px) {
+  .work-list {
+    margin-bottom: -15px;
+  }
+}
 
 .work-btn {
   font-family: Roboto;
@@ -1028,9 +1033,13 @@ img {
 
 .button-work {
   margin-right: 8px;
-  margin-bottom: 15px;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (max-width: 767px) {
+  .button-work {
+    margin-bottom: 15px;
+  }
 }
 .button-work:focus, .button-work:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
