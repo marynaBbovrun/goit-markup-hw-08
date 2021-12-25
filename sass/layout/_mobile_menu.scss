@@ -127,11 +127,11 @@
     font-size: 18px;
     line-height: 1.22;
     letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
-    &:hover,
-    &:focus {
-      color: var(--accent-color);
-    }
+    color: var(--accent-color);
+    // &:hover,
+    // &:focus {
+    //   color: var(--accent-color);
+    // }
   }
 }
 

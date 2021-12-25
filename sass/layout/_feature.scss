@@ -65,7 +65,9 @@
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-align: center;
+  @media screen and(max-width: 767px) {
+    text-align: center;
+  }
   color: var(--primary-title-color);
   margin-bottom: 10px;
 }
