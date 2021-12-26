@@ -331,6 +331,22 @@ body {
   }
 }
 
+.hero__hero {
+  margin: 0 auto;
+}
+@media screen and (max-width: 1199px) {
+  .hero__hero {
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
+
 .hero__title {
   font-size: 26px;
   font-weight: 900;
@@ -353,6 +369,11 @@ body {
     color: var(--secondary-white-color);
     margin-bottom: 30px;
     margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .hero__title {
+    max-width: 360px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -387,25 +408,6 @@ body {
   margin: 0 auto;
   margin-top: 30px;
   border-radius: 4px rgba(0, 0, 0, 0.25);
-}
-
-.hero__right {
-  padding-top: 118px;
-  padding-bottom: 118px;
-  padding-left: 60px;
-  padding-right: 60px;
-}
-@media screen and (min-width: 768px) {
-  .hero__right {
-    padding-left: 204px;
-    padding-right: 204px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .hero__right {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
 }
 
 .feature {
@@ -1001,11 +1003,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-}
-@media screen and (max-width: 767px) {
-  .work-list {
-    margin-bottom: -15px;
   }
 }
 
